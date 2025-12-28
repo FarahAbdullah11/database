@@ -1,0 +1,80 @@
+.patient-list {
+  padding: 20px;
+}
+
+.patient-list h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0;
+}
+
+.patient-list .card {
+  border-radius: 15px;
+  box-shadow: var(--card-shadow);
+  border: none;
+  overflow: hidden;
+}
+
+.patient-list .btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  padding: 12px 25px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.patient-list .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.patient-list .table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.patient-list .table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.patient-list .table thead th {
+  border: none;
+  padding: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.patient-list .table tbody tr {
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.patient-list .table tbody tr:hover {
+  background-color: #f8fafc;
+  transform: scale(1.01);
+}
+
+.patient-list .table tbody td {
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.patient-list .btn-sm {
+  padding: 6px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.patient-list .btn-sm:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+

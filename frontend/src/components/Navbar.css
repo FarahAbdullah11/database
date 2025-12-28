@@ -1,0 +1,33 @@
+.navbar {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  padding: 15px 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand i {
+  font-size: 1.8rem;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 8px 15px !important;
+}
+

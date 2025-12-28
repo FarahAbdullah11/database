@@ -1,0 +1,118 @@
+.home-page {
+  padding: 20px;
+}
+
+.home-page h2 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 2.5rem;
+}
+
+.home-page .card {
+  height: 100%;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+  box-shadow: var(--card-shadow);
+}
+
+.home-page .card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.home-page .card-body {
+  padding: 30px;
+}
+
+.home-page .card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-page .card-title i {
+  font-size: 1.8rem;
+}
+
+.home-page .card-text {
+  margin-bottom: 25px;
+  font-size: 1rem;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.home-page .bg-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.home-page .bg-success {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+}
+
+.home-page .bg-info {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+}
+
+.home-page .bg-warning {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%) !important;
+}
+
+.home-page .btn-light {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1f2937;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease;
+  margin-bottom: 8px;
+}
+
+.home-page .btn-light:hover {
+  background: white;
+  transform: translateX(5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-page .card:not(.bg-primary):not(.bg-success):not(.bg-info):not(.bg-warning) {
+  background: white;
+  border-radius: 15px;
+}
+
+.home-page .card:not(.bg-primary):not(.bg-success):not(.bg-info):not(.bg-warning) .card-title {
+  color: #1f2937;
+}
+
+.home-page .card:not(.bg-primary):not(.bg-success):not(.bg-info):not(.bg-warning) .card-text {
+  color: #6b7280;
+}
+
+.home-cards-connected {
+  gap: 0;
+}
+
+.home-cards-connected .card {
+  margin: 0;
+  border-radius: 0;
+}
+
+.home-cards-connected .col-md-3:first-child .card {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.home-cards-connected .col-md-3:last-child .card {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.home-cards-connected .col-md-3:not(:first-child) .card {
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+

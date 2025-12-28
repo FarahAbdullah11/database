@@ -1,0 +1,93 @@
+.patient-add {
+  padding: 20px;
+}
+
+.patient-add .card {
+  border-radius: 15px;
+  box-shadow: var(--card-shadow);
+  border: none;
+  overflow: hidden;
+}
+
+.patient-add .card-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 25px 30px;
+  border-bottom: none;
+}
+
+.patient-add .card-header h4 {
+  margin: 0;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+}
+
+.patient-add .card-header i {
+  font-size: 1.8rem;
+}
+
+.patient-add .card-body {
+  padding: 30px;
+  background: white;
+}
+
+.patient-add .form-label {
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.patient-add .form-control,
+.patient-add .form-select {
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.patient-add .form-control:focus,
+.patient-add .form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+  outline: none;
+}
+
+.patient-add .btn {
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.patient-add .btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+.patient-add .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.patient-add .btn-secondary {
+  background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+  border: none;
+}
+
+.patient-add .btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(107, 114, 128, 0.4);
+}
+
+.patient-add .btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
