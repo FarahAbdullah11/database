@@ -70,7 +70,12 @@ const DoctorList: React.FC = () => {
                   <span className="badge bg-info">{doctor.PatientCount || 0} patients</span>
                 </td>
                 <td>
-                  {/* Actions available: Edit, Delete can be added here */}
+                  <Link
+                    to={`/doctors/${doctor.DoctorID}`}
+                    className="btn btn-sm btn-primary"
+                  >
+                    <i className="bi bi-eye"></i> View
+                  </Link>
                 </td>
               </tr>
             ))}

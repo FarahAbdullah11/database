@@ -1,0 +1,80 @@
+.appointment-add {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.appointment-add h3 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.appointment-add .card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.appointment-add .form-label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.appointment-add .form-label .text-danger {
+  margin-left: 4px;
+}
+
+.appointment-add .form-control,
+.appointment-add .form-select {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.appointment-add .form-control:focus,
+.appointment-add .form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.appointment-add .btn {
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.appointment-add .btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+.appointment-add .btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.appointment-add .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.appointment-add .btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.appointment-add .btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.appointment-add .alert {
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 20px;
+}

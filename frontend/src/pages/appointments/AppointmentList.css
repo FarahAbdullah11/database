@@ -1,0 +1,46 @@
+.appointment-list {
+  padding: 20px;
+}
+
+.appointment-list h3 {
+  color: #333;
+  font-weight: 600;
+}
+
+.appointment-list .table {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.appointment-list .table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.appointment-list .table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.appointment-list .table tbody tr:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-list .badge {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+}
+
+.appointment-list .btn-danger {
+  transition: all 0.3s ease;
+}
+
+.appointment-list .btn-danger:hover {
+  transform: scale(1.05);
+}
+
+.appointment-list .small {
+  font-size: 0.8rem;
+}

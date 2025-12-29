@@ -32,6 +32,15 @@ export const admissionsAPI = {
   discharge: (id: number) => api.post(`/admissions/${id}/discharge`),
 };
 
+// Appointments API
+export const appointmentsAPI = {
+  getAll: () => api.get('/appointments'),
+  getFormData: () => api.get('/appointments/form-data'),
+  create: (data: any) => api.post('/appointments', data),
+  update: (id: number, data: any) => api.put(`/appointments/${id}`, data),
+  cancel: (id: number) => api.post(`/appointments/${id}/cancel`),
+};
+
 // Billing API
 export const billingAPI = {
   getAll: () => api.get('/billing'),

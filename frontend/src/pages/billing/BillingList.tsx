@@ -44,7 +44,6 @@ const BillingList: React.FC = () => {
 
   return (
     <div className="billing-list">
-      <h3 className="mb-4">All Bills</h3>
       <div className="table-responsive">
         <table className="table table-striped table-hover">
           <thead className="table-dark">

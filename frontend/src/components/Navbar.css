@@ -24,10 +24,32 @@
   font-size: 1.8rem;
 }
 
+.navbar-nav {
+  list-style: none !important;
+}
+
+.navbar-nav li {
+  list-style: none !important;
+}
+
+.nav-link {
+  color: white !important;
+  transition: all 0.3s ease;
+  padding: 8px 15px !important;
+  border-radius: 8px;
+  margin: 0 5px;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
 .nav-link.active {
   font-weight: bold;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   padding: 8px 15px !important;
 }
+
 

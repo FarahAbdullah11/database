@@ -6,6 +6,9 @@ import PatientList from './pages/patients/PatientList';
 import PatientAdd from './pages/patients/PatientAdd';
 import PatientEdit from './pages/patients/PatientEdit';
 import DoctorList from './pages/doctors/DoctorList';
+import DoctorView from './pages/doctors/DoctorView';
+import AppointmentList from './pages/appointments/AppointmentList';
+import AppointmentAdd from './pages/appointments/AppointmentAdd';
 import AdmissionList from './pages/admissions/AdmissionList';
 import AdmissionAdd from './pages/admissions/AdmissionAdd';
 import BillingList from './pages/billing/BillingList';
@@ -26,6 +29,9 @@ const App: React.FC = () => {
             <Route path="/patients/add" element={<PatientAdd />} />
             <Route path="/patients/:id/edit" element={<PatientEdit />} />
             <Route path="/doctors" element={<DoctorList />} />
+            <Route path="/doctors/:id" element={<DoctorView />} />
+            <Route path="/appointments" element={<AppointmentList />} />
+            <Route path="/appointments/new" element={<AppointmentAdd />} />
             <Route path="/admissions" element={<AdmissionList />} />
             <Route path="/admissions/new" element={<AdmissionAdd />} />
             <Route path="/billing" element={<BillingList />} />
